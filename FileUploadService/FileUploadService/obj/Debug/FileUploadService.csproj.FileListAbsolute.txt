@@ -1,0 +1,2 @@
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\obj\Debug\FileUploadService.csprojAssemblyReference.cache
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\obj\Debug\FileUploadService.csproj.CoreCompileInputs.cache

@@ -5,29 +5,44 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.IO;
 
 namespace FileUploadService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
+
     public class Service1 : IService1
     {
-        public string GetData(int value)
+        public string StoreFile(string filePath)
         {
-            return string.Format("You entered: {0}", value);
-        }
+            
+            string newFilePath = @"C:\Users\carte\OneDrive - Arizona State University\School\CSE 445\Homeworks\Homework 3\Part 1\UploadedFiles\" + filePath.Substring(filePath.LastIndexOf('\\') + 1);
+            using (FileStream fStream = File.Open(filePath, FileMode.Open, FileAccess.Read))
+            {
+                byte[] bytes = new byte[fStream.Length];
+                int numberOfBytesToRead = (int)fStream.Length;
+                int numberOfBytesRead = 0;
+                while (numberOfBytesToRead > 0)
+                {
+                    int i = fStream.Read(bytes, numberOfBytesRead, numberOfBytesToRead);
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
-        {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
+                    if (i == 0)
+                    {
+                        break;
+                    }
+
+                    numberOfBytesRead += i;
+                    numberOfBytesToRead -= i;
+                }
+
+                numberOfBytesToRead = bytes.Length;
+
+                using (FileStream fStreamNew = new FileStream(newFilePath, FileMode.Create, FileAccess.Read))
+                {
+                    fStreamNew.Write(bytes, 0, numberOfBytesToRead);
+                }
             }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+
+            return newFilePath;
         }
     }
 }
