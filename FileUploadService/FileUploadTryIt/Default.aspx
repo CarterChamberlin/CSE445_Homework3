@@ -15,10 +15,10 @@
         <br />
         <asp:Button ID="saveButton" runat="server" onclick="saveButton_Click" Text="Save File" />
         <br />
-        <asp:Label ID="statusLabel" runat="server" Text="File has not been uploaded yet."></asp:Label>
+        <asp:Label ID="statusLabel" runat="server"></asp:Label>
         <br />
         <asp:Label Text="Saved at URL: " runat="server" />
-        <asp:TextBox runat="server" />
+        <asp:Label ID="savedURL" Text=""  runat="server"  />
     </asp:Panel>
 
     <asp:Panel runat="server" ID="programResponse" CssClass="jumbotron">

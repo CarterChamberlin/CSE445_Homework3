@@ -12,7 +12,7 @@ namespace FileUploadService
 
     public class Service1 : IService1
     {
-        public string StoreFile(string filePath)
+        /*public string StoreFile(string filePath)
         {
             
             string newFilePath = @"C:\Users\carte\OneDrive - Arizona State University\School\CSE 445\Homeworks\Homework 3\Part 1\UploadedFiles\" + filePath.Substring(filePath.LastIndexOf('\\') + 1);
@@ -26,9 +26,7 @@ namespace FileUploadService
                     int i = fStream.Read(bytes, numberOfBytesRead, numberOfBytesToRead);
 
                     if (i == 0)
-                    {
                         break;
-                    }
 
                     numberOfBytesRead += i;
                     numberOfBytesToRead -= i;
@@ -41,6 +39,13 @@ namespace FileUploadService
                     fStreamNew.Write(bytes, 0, numberOfBytesToRead);
                 }
             }
+
+            return newFilePath;
+        }*/
+        public string StoreFile(string filePath)
+        {
+
+            string newFilePath = @"C:\Users\carte\OneDrive - Arizona State University\School\CSE 445\Homeworks\Homework 3\Part 1\UploadedFiles\" + filePath;
 
             return newFilePath;
         }
