@@ -1,0 +1,7 @@
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\bin\WordFilterService.dll.config
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\bin\WordFilterService.dll
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\bin\WordFilterService.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\obj\Debug\WordFilterService.csprojAssemblyReference.cache
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\obj\Debug\WordFilterService.csproj.CoreCompileInputs.cache
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\obj\Debug\WordFilterService.dll
+C:\Users\carte\source\repos\CSE445_Homework3\WordFilterService\WordFilterService\obj\Debug\WordFilterService.pdb
