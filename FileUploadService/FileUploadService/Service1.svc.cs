@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*  Author: Carter Chamberlin
+ *  Assignment: Project 3, Phase II
+ *  Group: Group #16 (Carter & Chloe)
+ *  Date: 31st March 2019
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -32,9 +38,11 @@ namespace FileUploadService
             HtmlDocument doc = web.Load(urlPath);
 
             HtmlNode title = doc.DocumentNode.SelectSingleNode("//head//title");
-            
+            string urlTitle = title.InnerText;
+            char[] charsToTrim = { '*', '\'', '?', ':', '/', '\\', '|', '"', '<', '>' };
+            urlTitle = urlTitle.Trim(charsToTrim);
             string fsPath = HttpContext.Current.Server.MapPath("~/Uploads/");
-            fsPath += (title.InnerText + @".html");
+            fsPath += (urlTitle + @".html");
 
             FileStream sw = new FileStream(fsPath, FileMode.Create);
             doc.Save(sw);

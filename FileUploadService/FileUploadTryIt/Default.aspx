@@ -6,12 +6,16 @@
     <asp:Panel runat="server" ID="ServiceInfo" CssClass="jumbotron" BorderWidth="5">
         <h1><b>File Upload Try It Page</b></h1>
         <br />
-        <h3>Section 1 allows a user to select a local file from their computer and upload it to the web server. The server returns a link to the uploaded
+        <h3><b>Section 1</b> allows a user to select a local file from their computer and upload it to the web server. The server returns a link to the uploaded
             file so that the user may use that link to retrieve the file later.
         </h3>
-        <h3>Section 2 allows the user to enter a URL of a webpage that they would like to download and save to the server. The server returns a link
+        <h3><b>Section 2</b> allows the user to enter a URL of a webpage that they would like to download and save to the server. The server returns a link
             to the saved webpage inside of the server.
         </h3>
+        <br />
+        <h4>*NOTE* This is simply a basic TryIt page to demonstrate the core functionality of this web service. A more "realistic" GUI and service functionality
+            will be created during the final portion of this project, when all the services get used together for a "practical" application.
+        </h4>
         <br />
     </asp:Panel>
 
@@ -50,6 +54,15 @@
         <asp:Label Text="Saved at URL: " runat="server" Font-Size="Large" Font-Bold="True" />
         <asp:HyperLink ID="webPageSavedURL" Text=""  runat="server"  Font-Size="Large" NavigateUrl=""/>
     </asp:Panel>
+    <br />
+    <br />
+    <asp:Panel runat="server" CssClass="jumbotron" BorderWidth="5">
+        <h3>Author: Carter Chamberlin</h3>
+        <h3>Assignment: Project 3, Phase II</h3>
+        <h3>Group: Group #16 (Carter & Chloe)</h3>
+        <h3>Date: 31st March 2019</h3>
+    </asp:Panel>
+
 
     <script type="text/javascript">
             //Will get working later
