@@ -5,3 +5,7 @@ C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService
 C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\bin\FileUploadService.pdb
 C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\obj\Debug\FileUploadService.dll
 C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\obj\Debug\FileUploadService.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\bin\HtmlAgilityPack.dll
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\bin\HtmlAgilityPack.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\bin\HtmlAgilityPack.xml
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadService\obj\Debug\FileUploadService.csproj.CopyComplete

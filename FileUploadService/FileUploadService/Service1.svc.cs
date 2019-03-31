@@ -6,48 +6,39 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 using System.IO;
+using System.Web;
+using System.Xml;
+using HtmlAgilityPack;
 
 namespace FileUploadService
 {
 
     public class Service1 : IService1
     {
-        /*public string StoreFile(string filePath)
-        {
-            
-            string newFilePath = @"C:\Users\carte\OneDrive - Arizona State University\School\CSE 445\Homeworks\Homework 3\Part 1\UploadedFiles\" + filePath.Substring(filePath.LastIndexOf('\\') + 1);
-            using (FileStream fStream = File.Open(filePath, FileMode.Open, FileAccess.Read))
-            {
-                byte[] bytes = new byte[fStream.Length];
-                int numberOfBytesToRead = (int)fStream.Length;
-                int numberOfBytesRead = 0;
-                while (numberOfBytesToRead > 0)
-                {
-                    int i = fStream.Read(bytes, numberOfBytesRead, numberOfBytesToRead);
-
-                    if (i == 0)
-                        break;
-
-                    numberOfBytesRead += i;
-                    numberOfBytesToRead -= i;
-                }
-
-                numberOfBytesToRead = bytes.Length;
-
-                using (FileStream fStreamNew = new FileStream(newFilePath, FileMode.Create, FileAccess.Read))
-                {
-                    fStreamNew.Write(bytes, 0, numberOfBytesToRead);
-                }
-            }
-
-            return newFilePath;
-        }*/
+        
         public string StoreFile(string filePath)
         {
-
-            string newFilePath = @"C:\Users\carte\OneDrive - Arizona State University\School\CSE 445\Homeworks\Homework 3\Part 1\UploadedFiles\" + filePath;
+            string fsPath = HttpContext.Current.Server.MapPath("~/Uploads/");
+            string newFilePath = fsPath + filePath;
 
             return newFilePath;
+        }
+
+        public string StoreURL(string urlPath)
+        {
+
+            
+            HtmlWeb web = new HtmlWeb();
+            HtmlDocument doc = web.Load(@"https://www.theverge.com/circuitbreaker/2019/3/29/18287383/apple-airpower-wireless-charger-cancelled");
+            
+            string fsPath = HttpContext.Current.Server.MapPath("~/Uploads/");
+            fsPath += @"test.html";
+
+            FileStream sw = new FileStream(fsPath, FileMode.Create);
+            doc.Save(sw);
+
+
+            return fsPath;
         }
     }
 }

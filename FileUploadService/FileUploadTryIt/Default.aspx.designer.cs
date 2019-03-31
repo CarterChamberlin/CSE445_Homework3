@@ -13,13 +13,22 @@ namespace FileUploadTryIt {
     public partial class _Default {
         
         /// <summary>
-        /// userInput control.
+        /// ServiceInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel userInput;
+        protected global::System.Web.UI.WebControls.Panel ServiceInfo;
+        
+        /// <summary>
+        /// Section1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Section1;
         
         /// <summary>
         /// FileUpload1 control.
@@ -31,13 +40,13 @@ namespace FileUploadTryIt {
         protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
         
         /// <summary>
-        /// saveButton control.
+        /// saveFileButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button saveButton;
+        protected global::System.Web.UI.WebControls.Button saveFileButton;
         
         /// <summary>
         /// statusLabel control.
@@ -49,21 +58,66 @@ namespace FileUploadTryIt {
         protected global::System.Web.UI.WebControls.Label statusLabel;
         
         /// <summary>
-        /// savedURL control.
+        /// fileSavedURL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label savedURL;
+        protected global::System.Web.UI.WebControls.HyperLink fileSavedURL;
         
         /// <summary>
-        /// programResponse control.
+        /// Section2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel programResponse;
+        protected global::System.Web.UI.WebControls.Panel Section2;
+        
+        /// <summary>
+        /// webPageURL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox webPageURL;
+        
+        /// <summary>
+        /// webPageButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button webPageButton;
+        
+        /// <summary>
+        /// webpageStatusLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label webpageStatusLabel;
+        
+        /// <summary>
+        /// webPageSavedURL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink webPageSavedURL;
+        
+        /// <summary>
+        /// hacks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button hacks;
     }
 }

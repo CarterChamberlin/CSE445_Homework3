@@ -13,35 +13,44 @@ namespace FileUploadTryIt
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            statusLabel.Visible = false;
             
         }
 
-        protected void saveButton_Click(object sender, EventArgs e)
+        protected void saveFileButton_Click(object sender, EventArgs e)
         {
+
             string userFileInput = String.Empty;
             if (FileUpload1.HasFile)
             {
-                try
-                {
-                    userFileInput = FileUpload1.FileName;
 
-                    string newFilePathURL = @"http://localhost:58435/Service1.svc/StoreFile?filePath=" + userFileInput;
-                    string newFilePath = readerResponse(newFilePathURL);
-                    newFilePath = newFilePath.Trim('"');
-                    FileUpload1.SaveAs(newFilePath);
+                userFileInput = FileUpload1.FileName;
+                string newFilePathURL = @"http://localhost:58435/Service1.svc/StoreFile?filePath=" + userFileInput;
+                string newFilePath = readerResponse(newFilePathURL);
+                newFilePath = newFilePath.Trim('"');
+                FileUpload1.SaveAs(newFilePath);
+
+                statusLabel.Text = "File Saved Successfully!";
+                fileSavedURL.Text = newFilePath;
+                fileSavedURL.NavigateUrl =  newFilePath;
 
 
-                    statusLabel.Text = "File Saved Successfully";
-                    statusLabel.Visible = true;
 
-                    savedURL.Text = newFilePath;
-                }
-                catch (Exception ex)
-                {
 
-                }
+                //FileUpload1.SaveAs(MapPath("~/Uploads/" + FileUpload1.FileName));
             }
+
+        }
+
+        protected void webPageButton_Click(object sender, EventArgs e)
+        {
+            
+            string responseURLstream = @"http://localhost:58435/Service1.svc/StoreURL?urlPath" + @webPageURL.Text;
+            string newFilePath = readerResponse(responseURLstream);
+            newFilePath = newFilePath.Trim('"');
+
+            webpageStatusLabel.Text = "WebPage Saved Successfully!";
+            webPageSavedURL.Text = newFilePath;
+
 
         }
 

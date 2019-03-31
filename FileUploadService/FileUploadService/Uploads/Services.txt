@@ -1,0 +1,9 @@
+Services from Required List:
+    1. Service 15 (req. services) Storage service
+    2. Service 18 (req. services) Wind Energy service
+    3. Service 17 (req. services) Solar Energy service
+    4. Service 10 (req. services) WsdlAddress
+
+
+Web Services from scratch:
+    

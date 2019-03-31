@@ -16,6 +16,10 @@ namespace FileUploadService
         [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/StoreFile?filePath={filePath}")]
         string StoreFile(string filePath);
 
+
+        [OperationContract]
+        [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/StoreURL?urlPath={urlPath}")]
+        string StoreURL(string urlPath);
     }
     
 }
