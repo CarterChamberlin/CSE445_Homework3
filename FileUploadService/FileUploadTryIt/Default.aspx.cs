@@ -44,7 +44,7 @@ namespace FileUploadTryIt
         protected void webPageButton_Click(object sender, EventArgs e)
         {
             
-            string responseURLstream = @"http://localhost:58435/Service1.svc/StoreURL?urlPath" + @webPageURL.Text;
+            string responseURLstream = @"http://localhost:58435/Service1.svc/StoreURL?urlPath=" + @webPageURL.Text;
             string newFilePath = readerResponse(responseURLstream);
             newFilePath = newFilePath.Trim('"');
 

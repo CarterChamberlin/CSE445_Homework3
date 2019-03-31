@@ -29,10 +29,12 @@ namespace FileUploadService
 
             
             HtmlWeb web = new HtmlWeb();
-            HtmlDocument doc = web.Load(@"https://www.theverge.com/circuitbreaker/2019/3/29/18287383/apple-airpower-wireless-charger-cancelled");
+            HtmlDocument doc = web.Load(urlPath);
+
+            HtmlNode title = doc.DocumentNode.SelectSingleNode("//head//title");
             
             string fsPath = HttpContext.Current.Server.MapPath("~/Uploads/");
-            fsPath += @"test.html";
+            fsPath += (title.InnerText + @".html");
 
             FileStream sw = new FileStream(fsPath, FileMode.Create);
             doc.Save(sw);

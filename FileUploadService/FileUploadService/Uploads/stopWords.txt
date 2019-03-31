@@ -1,3 +1,0 @@
-user inputs URL
-
-method 1: String 
