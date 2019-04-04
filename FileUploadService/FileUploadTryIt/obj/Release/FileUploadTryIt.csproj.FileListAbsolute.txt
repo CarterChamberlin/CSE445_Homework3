@@ -73,3 +73,6 @@ C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\o
 C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\obj\Release\FileUploadTryIt.csproj.CopyComplete
 C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\obj\Release\FileUploadTryIt.dll
 C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\obj\Release\FileUploadTryIt.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\bin\HtmlAgilityPack.dll
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\bin\HtmlAgilityPack.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\FileUploadService\FileUploadTryIt\bin\HtmlAgilityPack.xml

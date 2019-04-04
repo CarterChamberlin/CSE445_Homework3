@@ -19,7 +19,7 @@
         <br />
     </asp:Panel>
 
-    <asp:Panel runat="server" ID="Section1" CssClass="jumbotron" BorderWidth="5">
+    <%--<asp:Panel runat="server" ID="Section1" CssClass="jumbotron" BorderWidth="5">
         <h2><b>Section 1: Local File Upload</b></h2>
         <br />
         <br />
@@ -37,7 +37,7 @@
         <asp:HyperLink ID="fileSavedURL" Text=""  runat="server"  Font-Size="Large" NavigateUrl=""/>
         <p>(Copy and paste URL into browser to view file)</p>
         
-    </asp:Panel>
+    </asp:Panel>--%>
 
     <asp:Panel runat="server" ID="Section2" CssClass="jumbotron" BorderWidth="5">
         <h2><b>Section 2: Webpage Saver</b></h2>
@@ -53,6 +53,7 @@
         <br />
         <asp:Label Text="Saved at URL: " runat="server" Font-Size="Large" Font-Bold="True" />
         <asp:HyperLink ID="webPageSavedURL" Text=""  runat="server"  Font-Size="Large" NavigateUrl=""/>
+        
     </asp:Panel>
     <br />
     <br />
@@ -64,9 +65,6 @@
     </asp:Panel>
 
 
-    <script type="text/javascript">
-            //Will get working later
-            //<asp:Button OnClientClick="document.getElementById('hiddenField1').value = document.getElementById('fileUpload1').value" runat="server" ID="hacks"/>
-    </script>
+    
 
 </asp:Content>

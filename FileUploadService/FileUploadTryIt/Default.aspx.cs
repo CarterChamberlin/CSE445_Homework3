@@ -22,41 +22,45 @@ namespace FileUploadTryIt
             
         }
 
-        protected void saveFileButton_Click(object sender, EventArgs e)
-        {
+        //protected void saveFileButton_Click(object sender, EventArgs e)
+        //{
 
-            string userFileInput = String.Empty;
-            if (FileUpload1.HasFile)
-            {
+        //    string userFileInput = String.Empty;
+        //    if (FileUpload1.HasFile)
+        //    {
 
-                userFileInput = FileUpload1.FileName;
-                string newFilePathURL = @"http://localhost:58435/Service1.svc/StoreFile?filePath=" + userFileInput;
-                string newFilePath = readerResponse(newFilePathURL);
-                newFilePath = newFilePath.Trim('"');
-                FileUpload1.SaveAs(newFilePath);
+        //        userFileInput = FileUpload1.FileName;
+        //        //string newFilePathURL = @"http://localhost:58435/Service1.svc/StoreFile?filePath=" + userFileInput;
+        //        string newFilePathURL = @"http://webstrar16.fulton.asu.edu/Page1/Service1.svc/StoreFile?filePath=" + userFileInput;
+                
+        //        string newFilePath = readerResponse(newFilePathURL);
+        //        newFilePath = newFilePath.Trim('"');
+        //        //FileUpload1.SaveAs(newFilePath);
 
-                statusLabel.Text = "File Saved Successfully!";
-                fileSavedURL.Text = newFilePath;
-                fileSavedURL.NavigateUrl =  newFilePath;
+        //        statusLabel.Text = "File Saved Successfully!";
+        //        fileSavedURL.Text = newFilePath;
+        //        fileSavedURL.NavigateUrl =  newFilePath;
 
 
 
 
-                //FileUpload1.SaveAs(MapPath("~/Uploads/" + FileUpload1.FileName));
-            }
+        //        //FileUpload1.SaveAs(MapPath("~/Uploads/" + FileUpload1.FileName));
+        //    }
 
-        }
+        //}
 
         protected void webPageButton_Click(object sender, EventArgs e)
         {
-            
-            string responseURLstream = @"http://localhost:58435/Service1.svc/StoreURL?urlPath=" + @webPageURL.Text;
+
+            //string responseURLstream = @"http://localhost:58435/Service1.svc/StoreURL?urlPath=" + @webPageURL.Text;
+            string responseURLstream = @"http://webstrar16.fulton.asu.edu/Page1/Service1.svc/StoreURL?urlPath=" + @webPageURL.Text;
+
             string newFilePath = readerResponse(responseURLstream);
             newFilePath = newFilePath.Trim('"');
 
             webpageStatusLabel.Text = "WebPage Saved Successfully!";
             webPageSavedURL.Text = newFilePath;
-
+            webPageSavedURL.NavigateUrl = newFilePath;
 
         }
 

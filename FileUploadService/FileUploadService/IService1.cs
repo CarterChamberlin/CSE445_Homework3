@@ -18,9 +18,9 @@ namespace FileUploadService
 
     public interface IService1
     {
-        [OperationContract]
-        [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/StoreFile?filePath={filePath}")]
-        string StoreFile(string filePath);
+        //[OperationContract]
+        //[WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/StoreFile?filePath={filePath}")]
+        //string StoreFile(string filePath);
 
 
         [OperationContract]

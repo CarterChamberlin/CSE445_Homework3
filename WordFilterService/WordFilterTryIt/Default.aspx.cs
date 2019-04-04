@@ -27,7 +27,7 @@ namespace WordFilterTryIt
         {
             string userString = userInput.Text;
             
-            string url = @"http://localhost:58532/Service1.svc/FilteredString?originalString=" + userString;
+            string url = @"http://webstrar16.fulton.asu.edu/Page2/Service1.svc/FilteredString?originalString=" + userString;
             string formattedString = readerResponse(url);
 
 

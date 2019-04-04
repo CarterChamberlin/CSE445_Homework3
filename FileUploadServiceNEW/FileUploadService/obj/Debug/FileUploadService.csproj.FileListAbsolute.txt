@@ -1,7 +1,0 @@
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\bin\FileUploadService.dll.config
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\bin\FileUploadService.dll
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\bin\FileUploadService.pdb
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\obj\Debug\FileUploadService.csprojAssemblyReference.cache
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\obj\Debug\FileUploadService.csproj.CoreCompileInputs.cache
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\obj\Debug\FileUploadService.dll
-C:\Users\carte\source\repos\CSE445_Homework3\FileUploadServiceNEW\FileUploadService\obj\Debug\FileUploadService.pdb
