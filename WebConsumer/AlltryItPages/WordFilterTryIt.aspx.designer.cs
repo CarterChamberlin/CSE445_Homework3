@@ -10,7 +10,7 @@
 namespace AlltryItPages {
     
     
-    public partial class Contact {
+    public partial class WordFilterTryIt {
         
         /// <summary>
         /// ServiceInfo control.

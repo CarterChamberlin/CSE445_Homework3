@@ -10,7 +10,7 @@
 namespace AlltryItPages {
     
     
-    public partial class About {
+    public partial class FileUploadTryIt {
         
         /// <summary>
         /// ServiceInfo control.

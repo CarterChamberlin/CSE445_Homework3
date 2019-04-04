@@ -9,7 +9,7 @@ using System.IO;
 
 namespace AlltryItPages
 {
-    public partial class About : Page
+    public partial class FileUploadTryIt : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

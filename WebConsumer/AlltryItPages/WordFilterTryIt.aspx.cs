@@ -9,11 +9,11 @@ using System.IO;
 
 namespace AlltryItPages
 {
-    public partial class Contact : Page
+    public partial class WordFilterTryIt : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //output.Visible = false;
+            output.Visible = false;
         }
 
         protected void sendString_Click(object sender, EventArgs e)
