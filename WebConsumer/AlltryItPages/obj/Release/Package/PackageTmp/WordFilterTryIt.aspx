@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WordFilterTryIt.aspx.cs" Inherits="AlltryItPages.WordFilterTryIt" %>
+﻿<%@ Page Title="Word Filter Service" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WordFilterTryIt.aspx.cs" Inherits="AlltryItPages.WordFilterTryIt" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    

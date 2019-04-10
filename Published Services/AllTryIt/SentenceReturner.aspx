@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SentenceReturner.aspx.cs" Inherits="AlltryItPages.SentenceReturner" %>
+﻿<%@ Page Title="Sentence Return Service" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="SentenceReturner.aspx.cs" Inherits="AlltryItPages.SentenceReturner" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    

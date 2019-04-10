@@ -32,7 +32,7 @@ namespace LinkRetrieverTryIt
         {
             //formats the user's URL into a proper REST statement for use with the web service
             string responseURL = @"http://localhost:2697/Service1.svc/returnedLinks?webURL=" + urlInput.Text; //LocalHost for testing and blackboard submission
-            //string responseURL = @"http://localhost:2697/Service1.svc/returnedLinks?webURL=" + urlInput.Text; //reserved for WEBSTRAR deployment
+            //string responseURL = @"http://webstrar16.fulton.asu.edu/Page3/Service1.svc/returnedLinks?webURL=" + urlInput.Text; //reserved for WEBSTRAR deployment
             
             //sends rest url to response method below, and sets the method's response to variable "outputResponse"
             string outputResponse = readerResponse(responseURL);

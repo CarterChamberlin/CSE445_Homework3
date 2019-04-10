@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FileUploadTryIt.aspx" />
+    <Content Include="LinkService.aspx" />
     <Content Include="SentenceReturner.aspx" />
     <Content Include="Top10ContentWords.aspx" />
     <Content Include="WebReadingTime.aspx" />
@@ -179,6 +180,13 @@
       <DependentUpon>FileUploadTryIt.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="LinkService.aspx.cs">
+      <DependentUpon>LinkService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LinkService.aspx.designer.cs">
+      <DependentUpon>LinkService.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SentenceReturner.aspx.cs">
       <DependentUpon>SentenceReturner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

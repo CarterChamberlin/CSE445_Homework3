@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebReadingTime.aspx.cs" Inherits="AlltryItPages.WebReadingTime" %>
+﻿<%@ Page Title="Reading Time Service" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebReadingTime.aspx.cs" Inherits="AlltryItPages.WebReadingTime" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    

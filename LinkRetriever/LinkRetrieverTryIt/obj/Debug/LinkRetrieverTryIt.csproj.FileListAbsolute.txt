@@ -68,3 +68,4 @@ C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetrieverTryIt\ob
 C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetrieverTryIt\obj\Debug\LinkRetrieverTryIt.csproj.CopyComplete
 C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetrieverTryIt\obj\Debug\LinkRetrieverTryIt.dll
 C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetrieverTryIt\obj\Debug\LinkRetrieverTryIt.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetrieverTryIt\obj\Debug\LinkRetrieverTryIt.csprojAssemblyReference.cache
