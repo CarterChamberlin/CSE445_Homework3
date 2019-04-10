@@ -59,13 +59,31 @@ namespace LinkRetriever
                     linkTitles.Add(urlTitle);
                 }
             }
+            //<a href=&quot;url&quot;>text</a>
+
+            List<string> formattedURLs = new List<string>();
+            for (int i = 0; i < hrefLinks.Count; i++)
+            {
+                StringBuilder sb = new StringBuilder();
+                sb.Append("<a href=&quot;");
+                sb.Append(hrefLinks.ElementAt(i));
+                sb.Append("&quot;>");
+                sb.Append(linkTitles.ElementAt(i));
+                sb.Append("</ a >");
+
+                formattedURLs.Add(sb.ToString());
+            }
 
 
+            StringBuilder finalReturnString = new StringBuilder();
 
+            foreach (string validHREF in formattedURLs)
+            {
+                finalReturnString.Append(validHREF);
+                finalReturnString.Append("<br>");
+            }
 
-
-
-            return "hello";
+            return finalReturnString.ToString();
         }
     }
 }
