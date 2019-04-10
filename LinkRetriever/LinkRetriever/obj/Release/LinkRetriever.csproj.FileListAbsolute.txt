@@ -1,0 +1,11 @@
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\bin\LinkRetriever.dll.config
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\bin\LinkRetriever.dll
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\bin\LinkRetriever.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\bin\HtmlAgilityPack.dll
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\bin\HtmlAgilityPack.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\bin\HtmlAgilityPack.xml
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\obj\Release\LinkRetriever.csprojAssemblyReference.cache
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\obj\Release\LinkRetriever.csproj.CoreCompileInputs.cache
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\obj\Release\LinkRetriever.csproj.CopyComplete
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\obj\Release\LinkRetriever.dll
+C:\Users\carte\source\repos\CSE445_Homework3\LinkRetriever\LinkRetriever\obj\Release\LinkRetriever.pdb
