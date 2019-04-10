@@ -112,7 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FileUploadTryIt.aspx" />
-    <Content Include="ThirdServiceTryIt.aspx" />
+    <Content Include="SentenceReturner.aspx" />
+    <Content Include="Top10ContentWords.aspx" />
+    <Content Include="WebReadingTime.aspx" />
     <Content Include="WordFilterTryIt.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -177,12 +179,26 @@
       <DependentUpon>FileUploadTryIt.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="ThirdServiceTryIt.aspx.cs">
-      <DependentUpon>ThirdServiceTryIt.aspx</DependentUpon>
+    <Compile Include="SentenceReturner.aspx.cs">
+      <DependentUpon>SentenceReturner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ThirdServiceTryIt.aspx.designer.cs">
-      <DependentUpon>ThirdServiceTryIt.aspx</DependentUpon>
+    <Compile Include="SentenceReturner.aspx.designer.cs">
+      <DependentUpon>SentenceReturner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Top10ContentWords.aspx.cs">
+      <DependentUpon>Top10ContentWords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top10ContentWords.aspx.designer.cs">
+      <DependentUpon>Top10ContentWords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebReadingTime.aspx.cs">
+      <DependentUpon>WebReadingTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebReadingTime.aspx.designer.cs">
+      <DependentUpon>WebReadingTime.aspx</DependentUpon>
     </Compile>
     <Compile Include="WordFilterTryIt.aspx.cs">
       <DependentUpon>WordFilterTryIt.aspx</DependentUpon>

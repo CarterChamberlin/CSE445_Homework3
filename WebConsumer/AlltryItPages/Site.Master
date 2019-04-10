@@ -50,9 +50,11 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/FileUploadTryIt">FileUploadTryIt</a></li>
-                        <li><a runat="server" href="~/WordFilterTryIt">WordFilterTryIt</a></li>
-                        <li><a runat="server" href="~/ThirdServiceTryIt">ThirdServiceTryIt</a></li>
+                        <li><a runat="server" href="~/FileUploadTryIt">File Upload</a></li>
+                        <li><a runat="server" href="~/WordFilterTryIt">Word Filter</a></li>
+                        <li><a runat="server" href="~/Top10ContentWords">Top 10 Content Words</a></li>
+                        <li><a runat="server" href="~/WebReadingTime">Web Reading Time</a></li>
+                        <li><a runat="server" href="~/SentenceReturner">Sentence Returner</a></li>
                     </ul>
                 </div>
             </div>
