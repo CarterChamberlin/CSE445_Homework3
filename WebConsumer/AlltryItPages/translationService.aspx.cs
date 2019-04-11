@@ -7,22 +7,21 @@ using System.Web.UI.WebControls;
 using System.Net;
 using System.IO;
 
-namespace TranslationClient
+namespace AlltryItPages
 {
-    public partial class _Default : Page
+    public partial class translationService : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             programOutput.Visible = false;
         }
-
         protected void Submit_Click(object sender, EventArgs e)
         {
             string dataInput = textInput.Text;
-            
-            
-            string responseURL = @"http://localhost:8888/Service1.svc/translatedText?sentText=" + dataInput;
-            //string responseURL = @"http://webstrar16.fulton.asu.edu/Page7/Service1.svc/translatedText?sentText=" + dataInput;
+
+
+            //string responseURL = @"http://localhost:8888/Service1.svc/translatedText?sentText=" + dataInput;
+            string responseURL = @"http://webstrar16.fulton.asu.edu/Page7/Service1.svc/translatedText?sentText=" + dataInput;
 
             string textResponse = readerResponse(responseURL);
             textResponse = textResponse.Trim('"');

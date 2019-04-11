@@ -115,6 +115,7 @@
     <Content Include="LinkService.aspx" />
     <Content Include="SentenceReturner.aspx" />
     <Content Include="Top10ContentWords.aspx" />
+    <Content Include="translationService.aspx" />
     <Content Include="WebReadingTime.aspx" />
     <Content Include="WordFilterTryIt.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="Top10ContentWords.aspx.designer.cs">
       <DependentUpon>Top10ContentWords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="translationService.aspx.cs">
+      <DependentUpon>translationService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="translationService.aspx.designer.cs">
+      <DependentUpon>translationService.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebReadingTime.aspx.cs">
       <DependentUpon>WebReadingTime.aspx</DependentUpon>
