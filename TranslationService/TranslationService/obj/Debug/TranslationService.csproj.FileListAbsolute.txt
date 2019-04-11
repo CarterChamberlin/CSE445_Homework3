@@ -1,0 +1,14 @@
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\TranslationService.dll.config
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\TranslationService.dll
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\TranslationService.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\obj\Debug\TranslationService.csprojAssemblyReference.cache
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\obj\Debug\TranslationService.csproj.CoreCompileInputs.cache
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\obj\Debug\TranslationService.dll
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\obj\Debug\TranslationService.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\HtmlAgilityPack.dll
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\Newtonsoft.Json.dll
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\HtmlAgilityPack.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\HtmlAgilityPack.xml
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\Newtonsoft.Json.pdb
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\bin\Newtonsoft.Json.xml
+C:\Users\carte\source\repos\CSE445_Homework3\TranslationService\TranslationService\obj\Debug\TranslationService.csproj.CopyComplete

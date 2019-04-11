@@ -12,8 +12,10 @@ namespace TranslationService
     [ServiceContract]
     public interface IService1
     {
+        [OperationContract]
+        [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/translatedText?sentText={sentText}")]
 
-        
+        string translatedText(string sentText);
     }
 
 
